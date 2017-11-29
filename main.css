@@ -1,0 +1,102 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 20px auto; }
+  .container header h2 {
+    padding: 20px 0 20px 100px;
+    color: #778899;
+    font-size: 1.6em; }
+  .container .form-wrapp {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ced5db;
+    text-align: center; }
+
+form .form-group {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 20px; }
+  form .form-group label {
+    display: block;
+    color: #008080; }
+  form .form-group input {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.2em; }
+form > button {
+  padding: 10px 20px;
+  background-color: #6495ED;
+  color: #fff;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  cursor: pointer; }
+
+main header {
+  text-align: left;
+  padding-bottom: 10px; }
+  main header h3 {
+    width: 80%;
+    color: #495561;
+    display: inline-block;
+    padding-left: 100px; }
+  main header .clearIt {
+    padding: 5px 20px;
+    background-color: #ff5349;
+    color: #fff;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer; }
+
+table.listing {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px 10px; }
+  table.listing tr:nth-child(odd) {
+    background-color: #ced5db; }
+  table.listing tr.b_row td {
+    display: inline-block;
+    padding: 5px;
+    color: #1651bc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  table.listing tr.b_row td.b_name {
+    width: 70%; }
+  table.listing tr.b_row td.b_visit {
+    width: 15%;
+    text-align: center; }
+    table.listing tr.b_row td.b_visit > a {
+      text-decoration: none;
+      display: block;
+      background-color: #228b22;
+      color: #fff;
+      padding: 4px 12px;
+      text-transform: uppercase;
+      border-radius: 4px; }
+  table.listing tr.b_row td.b_remove {
+    width: 15%;
+    text-align: center; }
+    table.listing tr.b_row td.b_remove > button {
+      background-color: #fc0e00;
+      color: #fff;
+      display: block;
+      padding: 5px 10px 6px;
+      text-transform: uppercase;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 0;
+      outline: 0; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Bookmarker</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header><h2>Bookmarker</h2></header>
+        <hr>
+        <div class="form-wrapp">
+            <form id="ls_form">
+                <div class="form-group">
+                    <label for="b_name">Bookmark Name</label>
+                    <input type="text" name="b_name" id="b_name">
+                </div>
+                <div class="form-group">
+                    <label for="b_url">Bookmark Url</label>
+                    <input type="text" name="b_url" id="b_url">
+                </div>
+                <button type="submit" id="submit" name="submit" title="Add New Bookmark">Add</button>
+            </form>
+        </div>
+        <main>
+            <header>
+                <h3>Saved Bookmarks</h3>
+                <button id="clearIt" class="clearIt" type="button" title="Remove All Storage Items">Clear Storage</button>
+            </header>
+            <hr>
+            <table id="listing" class="listing"></table>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
